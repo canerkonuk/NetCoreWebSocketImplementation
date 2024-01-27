@@ -8,12 +8,12 @@ namespace NetCoreWebSocketImplementationAPI.Controllers
     [ApiController]
     [Route("[controller]")]
     [RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
-    public class WeatherForecastController : ControllerBase
+    public class WebsocketController : ControllerBase
     {
         
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<WebsocketController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WebsocketController(ILogger<WebsocketController> logger)
         {
             _logger = logger;
         }
@@ -22,8 +22,6 @@ namespace NetCoreWebSocketImplementationAPI.Controllers
         [HttpGet]
         public ActionResult Test()
         {
-            
-
             return Ok("Test");
         }
     }
