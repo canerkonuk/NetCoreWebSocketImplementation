@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebSocketImplementat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreSignalRWebSocketImplementationAPI", "NetCoreSignalRWebSocketImplementationAPI\NetCoreSignalRWebSocketImplementationAPI.csproj", "{E12B9C4A-75BE-4540-A907-AFF0E30D3386}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreSignalRImplementationWebApp", "NetCoreSignalRImplementationWebApp\NetCoreSignalRImplementationWebApp.csproj", "{8F7B84E9-EF7B-4A3C-BF55-482EB0029BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreSignalRImplementationWebApp", "NetCoreSignalRImplementationWebApp\NetCoreSignalRImplementationWebApp.csproj", "{8F7B84E9-EF7B-4A3C-BF55-482EB0029BF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

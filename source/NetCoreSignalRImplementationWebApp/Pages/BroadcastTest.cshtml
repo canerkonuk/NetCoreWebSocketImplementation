@@ -1,0 +1,14 @@
+﻿@page
+@{
+    ViewData["Title"] = "SignalR Test";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<button id="startButton">Start</button>
+<div id="messages"></div>
+
+@section Scripts {
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/broadcast.js"></script>
+}
