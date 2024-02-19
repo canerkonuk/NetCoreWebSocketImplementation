@@ -398,3 +398,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 /source/NetCoreWebSocketImplementationAPI/appsettings.json
+/source/NetCoreSignalRWebSocketImplementationAPI/appsettings.json
+/source/NetCoreSignalRImplementationWebApp/appsettings.json
